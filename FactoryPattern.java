@@ -1,10 +1,10 @@
 package designPattern;
 
 public class FactoryPattern {
-    public OS getInstance(String s){
-        if(s.equals("open"))
+    public OS getInstance(String type){
+        if(type.equals("open"))
             return new Android();
-        if(s.equals("close"))
+        if(type.equals("close"))
             return new IOS();
         else return new Windows();
     }
