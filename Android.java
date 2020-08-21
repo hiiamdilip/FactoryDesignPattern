@@ -1,7 +1,7 @@
 package designPattern;
 
 public class Android implements OS{
-    public void spec(){
+    public void specification(){
         System.out.println("I am powerful");
     }
 }
